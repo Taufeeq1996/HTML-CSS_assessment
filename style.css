@@ -1,0 +1,299 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto';
+}
+nav a{
+    color: black;
+    font-weight: lighter;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+nav .nav-class{
+    display:flex;
+    width:90vw;
+    margin: 1vw auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .nav-class .right-nav{
+    display: flex;
+    justify-content: space-between;
+    width:40vw;
+}
+nav .nav-class .right-nav-right{
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+}
+#home{
+    text-align: center;
+    width:3vw;
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+}
+/* main */
+main .main-heading{
+    margin: 3vw 0 3vw 5vw;
+}
+main #first-heading{
+    color: rgba(189, 189, 189, 1);
+    font-weight: 100;
+    font-size: 3.4vw;
+}
+main #second-heading{
+    font-weight: 700;
+    font-size: 3.4vw;
+}
+main .main-images{
+    border-top: 1px solid rgba(242, 242, 242, 1);
+    width: 90vw;
+    margin: 1vw auto;
+    padding: 2vw 0;
+    row-gap: 2vw;
+    display:grid;
+    grid-template-columns: repeat(5,auto);
+}
+main #first-img{
+    background-color: rgba(251, 251, 251, 1);
+    width:70%;
+}
+main #first-img img{
+    width: 100%;
+}
+main #first-img p{
+    font-size: 1vw;
+}
+main .three-images{
+    width: 90vw;
+    margin: 3vw auto;
+    background-color: rgba(251, 251, 251, 1);
+    ;
+}
+main .three-images .three-images-div{
+    display:flex;
+    margin: 1vw auto;
+    width: 80%;
+    justify-content: space-evenly;
+}
+main .three-images .three-images-div .first-two{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+main .three-images .three-images-div .img-para{
+    display: flex;
+    align-items: center;
+    width:75%;
+    justify-content: space-around;
+}
+main .three-images .three-images-div .img-para p{
+    font-weight: 300;
+    font-size: 1.1vw;
+}
+main .three-images .three-images-div .img-para .btn-arrow{
+    display: flex;
+    width: 10vw;
+    justify-content: center;
+    align-items: center;
+    gap:2vw;
+    margin-top: 1vw;
+    background-color: white;
+    padding: 2em;
+}
+main .number{
+    width: 90vw;
+    margin : 3vw auto ;
+    display: flex;
+    justify-content: space-between;
+}
+main .number img{
+    width: 25%;
+}
+main .number .num-1{
+    display: flex;
+    width: 40%;
+    gap:2vw;
+    align-items: center;
+}
+main .number p{
+    color: rgba(0, 0, 0, 0.73);
+    font-size: 1.14vw;
+    line-height: 2.5vw;
+}
+
+main .number .num-2{
+    display: flex;
+    width: 40%;
+    gap: 2vw;
+    align-items: center;
+}
+#connect{
+    color: rgba(141, 141, 141, 1);
+    font-size: 4vw;
+    font-weight: 300;
+    margin: 2vw 0 2vw 5vw;
+}
+main .contact{
+    display: flex;
+    width: 90vw;
+    margin : 3vw auto 0vw auto ;
+    justify-content: space-between;
+}
+main .contact .contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+main .contact .contact-form textarea{
+    width: 100%;
+    border:none;
+    background-color: rgba(243, 243, 243, 1);
+}
+main .contact .contact-form input{
+    width: 96%;
+    padding: 1em;
+    border:none;
+    background-color: rgba(243, 243, 243, 1);
+}
+main .contact .contact-form input::placeholder{
+    color: rgba(128, 128, 128, 1);
+}
+main .contact img{
+    width: 50vw;
+}
+main .contact .contact-form textarea::placeholder{
+    padding:1em;
+}
+main .checkbox-div{
+    margin : 1vw 5.5vw;
+    display:flex;
+    align-items: center;
+    gap: 1vw;
+}
+/* @supports(-moz-appearance: none){
+    input[type='checkbox']{
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+} */
+main .checkbox-div label{
+    color: rgba(51, 51, 51, 1);
+}
+main #privacy{
+    background-color: rgba(243, 243, 243, 1);
+    border:none;
+    width: 25px;
+    height: 25px;
+}
+main .send-div{
+    display:flex;
+    align-items: center;
+    margin: 0 5vw;
+    background-color: rgba(51, 51, 51, 1);
+    width:10vw;
+    padding:1.3em;
+    justify-content: center;
+    gap: 1vw;
+}
+main .send-div button{
+    background: transparent;
+    border: none;
+    color:white;
+    font-size: 1em;
+    font-weight: 300;
+    font-family: 'Maison Neue';
+}
+main .left-right-arrow{
+    margin: 3vw 0 0 5vw;
+    width: 18vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main .left-right-arrow .page-num{
+    display:flex;
+    width:52%;
+    justify-content: space-between;
+}
+main .left-right-arrow .page-num p{
+    font-size: 2vw;
+}
+main #five{
+    color:  #BDBDBD;
+}
+main #slash{
+    color:  #BDBDBD;
+}
+main .left-right-arrow .arrow-link{
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+    /* gap: 1vw; */
+}
+main .left-right-arrow .arrow-link .left-arrow-div{
+    text-decoration: none;
+    border: 1px solid lightgray;
+    padding: 0.5em;
+}
+main .left-right-arrow .arrow-link .right-arrow-div{
+    text-decoration: none;
+    border: 1px solid lightgray;
+    padding: 0.5em;
+    background-color: #F2F2F2;
+}
+/* footer */
+
+footer{
+    background-color: black;
+}
+footer .contact-section{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin: 0.5vw;
+    padding-top: 2vw;
+}
+footer .contact-section .gallery{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+footer .contact-section .gallery a{
+    color: white;
+    text-decoration: none;
+}
+footer .contact-section .address .address-div{
+    display:flex;
+    margin-bottom: 1vw;
+    gap: 1vw;
+}
+footer .contact-section .social .media-img{
+    display:flex;
+    justify-content: space-between;
+    width:10vw;
+    margin-top:1vw;
+}
+footer .address h3{
+    margin-bottom: 1vw;
+}
+footer .copyright{
+    color:white;
+    text-align: center;
+    padding: 2vw 0;
+}
+/* media screen  */
+
+@media only screen and (max-width: 650px){
+    main .main-images{
+        border-top: 1px solid rgba(242, 242, 242, 1);
+        width: 90vw;
+        margin: 1vw auto;
+        padding: 2vw 0;
+        row-gap: 2vw;
+        display:grid;
+        grid-template-columns: repeat(2,auto);
+    }
+}
